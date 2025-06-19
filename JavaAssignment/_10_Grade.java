@@ -1,6 +1,8 @@
 public class _10_Grade {
   public static void main(String[] args) {
     java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+    // Read marks for 5 subjects from the user and sum them up
     System.out.print("Enter your marks: ");
     int sum = 0;
     for (int i = 1; i <= 5; i++) {
@@ -9,6 +11,7 @@ public class _10_Grade {
     }
     double marks = (sum / 5.0);
 
+    // Calculate and display the grade based on the marks
     if (marks >= 90) {
       System.out.println("Grade: A");
     } else if (marks >= 80) {

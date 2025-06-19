@@ -2,6 +2,7 @@
 public class _05_swap {
   public static void main(String[] args) {
     java.util.Scanner scanner = new java.util.Scanner(System.in);
+    // Input two numbers from the user
     System.out.print("Enter first number: ");
     int num1 = scanner.nextInt();
     System.out.print("Enter second number: ");
